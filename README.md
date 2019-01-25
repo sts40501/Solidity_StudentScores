@@ -140,7 +140,7 @@ Solidity 程式以下透過 [Remix Solidity IDE](https://remix.ethereum.org) 作
 ##
 接著就可以使用出現在下方的`Deployed Contracts`來呼叫智能合約的函數了。
 
-![enter image description here](https://i.imgur.com/Voenebb.png)
+![enter image description here](https://i.imgur.com/ER6paKw.jpg)
 
 > 程式碼當中有四個函數與一個結構。
 
