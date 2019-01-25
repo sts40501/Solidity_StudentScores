@@ -269,6 +269,7 @@ https://cryptozombies.io/zh
 [4] https://medium.com/@gus_tavo_guim/using-truffle-to-create-and-deploy-smart-contracts-95d65df626a2
 
 [5] https://ethereum.stackexchange.com/questions/62906/typeerror-data-location-must-be-memory-for-parameter-in-function-but-none-wa
+
 [6] http://me.tryblockchain.org/solidity-struct.html
 
 [7] https://ethereum.stackexchange.com/questions/25945/call-write-function-which-doesnt-change-contract-value
