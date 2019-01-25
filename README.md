@@ -5,49 +5,12 @@
 
 ## 步驟流程
 ### 登入成績 
-```mermaid
-graph LR
-A(考試成績)
-B(學生姓名)
-C(帳戶位址)
-D(是否及格)
-A --輸入--> E["enter_scores( ) 函數"]
-B --輸入--> E
-E -- 記錄 --> C
-E --> D
-F((Student 結構))
-A --> F
-B --> F
-C --> F
-D --> F
-```
+![enter image description here](https://i.imgur.com/Kl9Votn.png)
 
 ### 查詢成績
-```mermaid
-graph LR
-A(考試成績)
-B(學生姓名)
-C(帳戶位址)
-D(是否及格)
-F((Student 結構))
-C -- 輸入 --> E["lookup_scores( ) 函數"]
-F --> A
-F --> B
-F --> D
-E --> F
-```
+![enter image description here](https://i.imgur.com/OFAvZto.png)
 ### 清除記錄
-```mermaid
-graph LR
-A(考試成績)
-B(學生姓名)
-C(當前帳戶)
-D(是否及格)
-C --> F["delete_student( ) 函數"]
-F --清除--> A
-F --清除--> B
-F --清除--> D
-```
+![enter image description here](https://i.imgur.com/MfzSaMw.png)
 
 ## Solidity 程式說明
     struct Student{
@@ -298,25 +261,47 @@ https://cryptozombies.io/zh
 
 ## 參考資料
 [1] https://gasolin.gitbooks.io/learn-ethereum-dapp/content/
+
 [2] https://medium.com/@pomelyu5199/%E5%9C%A8%E5%8D%80%E5%A1%8A%E9%8F%88%E4%B8%8A%E5%AF%A6%E4%BD%9C-todo-app-%E4%B8%8A-truffle-3987f3a3be33
+
 [3] https://truffleframework.com/docs/truffle/getting-started/using-truffle-develop-and-the-console
+
 [4] https://medium.com/@gus_tavo_guim/using-truffle-to-create-and-deploy-smart-contracts-95d65df626a2
+
 [5] https://ethereum.stackexchange.com/questions/62906/typeerror-data-location-must-be-memory-for-parameter-in-function-but-none-wa
 [6] http://me.tryblockchain.org/solidity-struct.html
+
 [7] https://ethereum.stackexchange.com/questions/25945/call-write-function-which-doesnt-change-contract-value
+
 [8] https://ithelp.ithome.com.tw/articles/10201629?sc=iThelpR
+
 [9] https://zhuanlan.zhihu.com/p/28266204
+
 [10] https://ithelp.ithome.com.tw/articles/10201750
+
 [11] https://ithelp.ithome.com.tw/articles/10205760?sc=iThelpR
+
 [12] https://cryptozombies.io/zh
+
 [13] https://eattheblocks.com/best-way-to-learn-solidity-for-beginners/
+
 [14] https://www.jianshu.com/p/d8337ab12e5f
+
 [15] https://ithelp.ithome.com.tw/articles/10207884?sc=iThelpR
+
 [16] https://data-science-group.github.io/BigDataSociety/Hackathon/2018-09/Blockchain.pdf
+
 [17] https://juejin.im/post/5b8e8d08f265da434a1fe491
+
 [18] https://truffleframework.com/docs/truffle/reference/configuration
+
 [19] http://truffle.tryblockchain.org/
+
 [20] https://www.youtube.com/watch?v=epls0ToPedc
+
 [21] https://ethfans.org/posts/510
+
 [22] https://lilymoana.github.io/ethereum_theory.html
+
 [23] https://www.ethereum.org/cli
+
